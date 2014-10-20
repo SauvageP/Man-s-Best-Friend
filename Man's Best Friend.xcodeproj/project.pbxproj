@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D04A95D719F5D2830036179D /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D04A95D219F5D2830036179D /* Bo.jpg */; };
+		D04A95D819F5D2830036179D /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D04A95D319F5D2830036179D /* BorderCollie.jpg */; };
+		D04A95D919F5D2830036179D /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D04A95D419F5D2830036179D /* ItalianGreyhound.jpg */; };
+		D04A95DA19F5D2830036179D /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D04A95D519F5D2830036179D /* JRT.jpg */; };
+		D04A95DB19F5D2830036179D /* St.Bernard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D04A95D619F5D2830036179D /* St.Bernard.jpg */; };
 		D0A6526A19F56A730061C9C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A6526919F56A730061C9C0 /* main.m */; };
 		D0A6526D19F56A730061C9C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A6526C19F56A730061C9C0 /* AppDelegate.m */; };
 		D0A6527019F56A730061C9C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A6526F19F56A730061C9C0 /* ViewController.m */; };
@@ -28,6 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D04A95D219F5D2830036179D /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
+		D04A95D319F5D2830036179D /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
+		D04A95D419F5D2830036179D /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianGreyhound.jpg; sourceTree = "<group>"; };
+		D04A95D519F5D2830036179D /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
+		D04A95D619F5D2830036179D /* St.Bernard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = St.Bernard.jpg; sourceTree = "<group>"; };
 		D0A6526419F56A730061C9C0 /* Man's Best Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Man's Best Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A6526819F56A730061C9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0A6526919F56A730061C9C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -101,6 +111,11 @@
 		D0A6526719F56A730061C9C0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D04A95D219F5D2830036179D /* Bo.jpg */,
+				D04A95D319F5D2830036179D /* BorderCollie.jpg */,
+				D04A95D419F5D2830036179D /* ItalianGreyhound.jpg */,
+				D04A95D519F5D2830036179D /* JRT.jpg */,
+				D04A95D619F5D2830036179D /* St.Bernard.jpg */,
 				D0A6526819F56A730061C9C0 /* Info.plist */,
 				D0A6526919F56A730061C9C0 /* main.m */,
 			);
@@ -204,8 +219,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04A95DB19F5D2830036179D /* St.Bernard.jpg in Resources */,
+				D04A95D919F5D2830036179D /* ItalianGreyhound.jpg in Resources */,
 				D0A6527319F56A730061C9C0 /* Main.storyboard in Resources */,
+				D04A95DA19F5D2830036179D /* JRT.jpg in Resources */,
 				D0A6527819F56A730061C9C0 /* LaunchScreen.xib in Resources */,
+				D04A95D819F5D2830036179D /* BorderCollie.jpg in Resources */,
+				D04A95D719F5D2830036179D /* Bo.jpg in Resources */,
 				D0A6527519F56A730061C9C0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +438,7 @@
 				D0A6528919F56A730061C9C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0A6528A19F56A730061C9C0 /* Build configuration list for PBXNativeTarget "Man's Best FriendTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +447,7 @@
 				D0A6528C19F56A730061C9C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
