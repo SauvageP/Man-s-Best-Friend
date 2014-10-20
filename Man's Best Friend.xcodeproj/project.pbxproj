@@ -14,6 +14,7 @@
 		D0A6527519F56A730061C9C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A6527419F56A730061C9C0 /* Images.xcassets */; };
 		D0A6527819F56A730061C9C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0A6527619F56A730061C9C0 /* LaunchScreen.xib */; };
 		D0A6528419F56A730061C9C0 /* Man_s_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A6528319F56A730061C9C0 /* Man_s_Best_FriendTests.m */; };
+		D0A6528F19F56D600061C9C0 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A6528E19F56D600061C9C0 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D0A6527D19F56A730061C9C0 /* Man's Best FriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Man's Best FriendTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A6528219F56A730061C9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0A6528319F56A730061C9C0 /* Man_s_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_Best_FriendTests.m; sourceTree = "<group>"; };
+		D0A6528D19F56D600061C9C0 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		D0A6528E19F56D600061C9C0 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				D0A6526E19F56A730061C9C0 /* ViewController.h */,
 				D0A6526F19F56A730061C9C0 /* ViewController.m */,
 				D0A6527119F56A730061C9C0 /* Main.storyboard */,
+				D0A6528D19F56D600061C9C0 /* Dog.h */,
+				D0A6528E19F56D600061C9C0 /* Dog.m */,
 				D0A6527419F56A730061C9C0 /* Images.xcassets */,
 				D0A6527619F56A730061C9C0 /* LaunchScreen.xib */,
 				D0A6526719F56A730061C9C0 /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				D0A6527019F56A730061C9C0 /* ViewController.m in Sources */,
 				D0A6526D19F56A730061C9C0 /* AppDelegate.m in Sources */,
+				D0A6528F19F56D600061C9C0 /* Dog.m in Sources */,
 				D0A6526A19F56A730061C9C0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
