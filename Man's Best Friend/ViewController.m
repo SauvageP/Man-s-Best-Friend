@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Dog.h"
 
 @interface ViewController ()
 
@@ -17,11 +18,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    Dog *myDog = [[Dog alloc] init];
+    myDog.name = @"Nana";
+    myDog.breed = @"St. Bernard";
+    myDog.age = 3;
+    NSLog(@"%i", [myDog ageInDogYearsFromAge:myDog.age]);
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)printHelloWorld {
+    NSLog(@"Hello World");
 }
 
 @end
